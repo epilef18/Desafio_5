@@ -5,6 +5,6 @@ velocidad = [25, 12, 19, 16, 11, 11, 24, 1,
 10, 5, 23, 3, 5, 9, 5, 3, 12, 20, 5,
 11, 10, 18, 10, 14, 5, 23, 20, 23, 21]
 
-promedio = sum(velocidad)/len(velocidad)
-mayores =  {i for i,v in enumerate(velocidad) if v > promedio}
+promedio = sum(velocidad)/len(velocidad) #obtiene promedio de la lista
+mayores =  {i for i,v in enumerate(velocidad) if v > promedio} #obtiene posición de valores sobre el promedio
 print(f'{mayores}')
